@@ -1,0 +1,286 @@
+--SINISTER TWO DUPE--
+--Blaze Edition--
+
+--Version: 4.2 (2023)
+--Minecraft Version: 1.19.2 - 1.20.1
+
+--[[
+Update Log (Version 4):
+-Removed Version Generations (RX 10)
+-Updated Sinister API
+-Updated SinisterMC Menu
+-Unpatched "IgnoreCommands", feature
+-Updated prefix bugs
+-Unpatched everything on PaperMC / Bukkit Servers
+-Added feature to use previous versions of SinisterMC (In The Flags Section)
+-Added Flags Section in SinisterMC Menu
+-Remastered SinisterMC Menu Pin Option
+-Updated SinisterMC to the latest minecraft version (including snapshot)
+-Added Update Channels (Everyone is automatically set to MCLIVE and cannot change it without a custom UChannel Code)
+-Added Update Build Strings
+-Added Compatibility for 1.19.2 !!
+
+ENJOY THE NEW UPDATE !!
+
+--]]
+
+--Local Service--
+local endService
+local command = AllowOpenCommands
+createNewService.Name = "ended..n/..started"
+
+--Commands--
+PlayerPrefix = "/" --Set to anything you want or keep defualt.
+PrefixConfigure = true
+PrefixDefault = true --If changed Prefix, set this to false.
+DataRestore.Console = DataLib.PosReset
+
+IgnoreCommands = ["/kick","/ban","/warn","/pban","/ipban","/clear","/cls"] --Unpatched
+continueIgnore["Paused..//..Unpaused//"] ={
+requireIgnoreCommand = true
+},
+IgnoreCommandsListed = true
+
+ValidCommands = {
+"$d",
+"$disconnect",
+"$disconnect pos",
+"$disconnect packet"
+local PacketService.Disconnect = interval
+NewInstance.Interval = 1
+NewInstance.Interval = 2
+NewInstance.Interval = 3
+NewInstance.Interval = 4
+NewInstance.PosInterval = 5 --Packet Restore
+insertLib("Pos") = {
+"intervalPos",
+localNet.resetPos = true
+},
+
+DataLib.Pos = tableLib.ResetInterval()
+"$dupe"
+"$itemdupe"
+"$interval"
+"$serverip"
+"$tps"
+--"$crashserver"
+},
+
+--CrashServer.Time ~= ""
+--NewInstance.CrashTime ~= SelectedNumber
+--SelectedNumber = Interval
+
+ServiceCrash = {
+--CrashSelection *= Selected
+--CrashTps *= Set.TicksPerSecond
+--TicksPerSecond ~= 1
+--pcall("TicksPerSecond")
+--CrashTps = false
+
+--CrashSelection *= Selected
+--EntityCrash *= Set.EntityCount
+--EntityCount ~= E/300 >true
+},
+
+--createNewCommand.Extras.FileLocation
+ServiceCrash.Unavailable = true
+PlayerInput.Username = {"MagicalRazu_"},
+userInput.FoundID = SendClientNumber, (4#<5),
+restoreInput.ClientNumber[userInput]
+require(bdd3bd63-4cc1-4768-9db0-6e124db29f14).sinister["MagicalRazu_"]
+
+serverip = .minehut.gg
+ms = nil
+pingms = nil
+
+systemRequire = ("uuid") --Stated above!
+
+pcallEntity ={
+--NBTData.SaveFile = true
+--CallInventory("requireService")
+--UserInventory.ServiceRequirement = PlayerInput.UsernameRequire
+--RunRequire.PlayerInput.Stated
+
+--RunTime = tickspersecond
+--DecreaseTps = true
+},
+
+EntityHandle.UserInput
+ClientActive = {
+Client.ComputerInput
+Client.UserInput
+Client.UUIDInput
+
+ClientActive = true/false
+},
+
+setClientPID = 904/305994/027758468029528/JDJEJHGDUISFRJR --PID
+UpdateChannel = MCLIVE --UChannel
+UChannelCode = 0395 --MCLIVE
+UChannelString = "6552be68b05d41a5" --MCLIVE
+ClientID = 907 --Hosted ID
+setMCID = 2 --0,1,4,9 (Dont Touch this, changing it breaks the whole script)
+currentID ={
+UserClient{
+string.UserData.Sync("clientString")
+stringID.NoNumber = true
+functionData.Output;
+},
+requireClientID(83690430599402275528).server["MagicalRazu_"]
+client.locusID = math.huge --6,4,7,8,2,5,78
+requireID = true
+},
+
+--Mods--
+jarInstance.New = extensionNext
+jarInstance(),
+
+java.lang.fieldInput: Could Not Read Data
+language[{'java'}]
+SyncFile("Mod Additions").ReadMemory[scriptName]
+return module; sync
+
+modName ={
+   "minecraft.jar",
+},
+syncMods({ModAdditions.jar}), modulePathInput(generateLine),
+global("minecraft.jar"),
+
+local xnorPatch = script.Player.LocalPlayer:Connect{dns}
+
+path(xnorValue)
+xnorValue.lang.xnor; x64; jarInstance[{'xnorValue'}]"boldString": DataInstance.NewInput:PortSocket(port1).portName("port1"): ConnectDNS{[dns]},
+
+xnor; x64,
+module return; packetInput{module}../n..ClientString['id']//
+mcid; reg ump {minecraft:block}; {minecraft:item}
+
+HzCount:7
+RenderDistance = 12
+SimulationDistance = 8
+EntityDistance = 0.1%
+
+relocate{xnor}
+registry; objectEditor --Puts item in Registry as the item goes into the player's inventory
+
+regedit.block../item{'locate'}.tag|idName? = [minecraft:block]..//n..item; return
+
+local registry(server)
+
+saveData.UserClient.Username["MagicalRazu_"]
+FileData.SetPosition = true
+Coordinates.Pos = " "
+Coordinates.SavePosition = true
+
+DataStoreService.minecraft.saves.WorldNames("level.dat")
+createNewLevel.Name.save = "level.dat"
+requireSaves = true
+
+falseRequire = false
+saveData.UserService.UUID.saves("Razu")
+ComputerName.PCName.DetectionService = true
+OS ={
+OperatingSystem = Windows 10,
+OperatingVersion = 22H2,
+About = false
+
+local endService[pcall]
+call.Line = 7
+},
+
+locus; proccessingApplication; false
+locus; HyperV("Virtualization"); .jar,
+returnMod.ModuleTray; tables.lib
+
+bios.PowerShell(function)
+   HyperV = hxjarmod --Virtualized .jar File
+   Virtualized = true
+   if HyperV is not active then
+   else;
+      closeApplication = true
+      ApplicationName = "stlua.exe"
+      useLines = 170, 188
+      require(HyperV); true
+      enterBiosState.SinisterTwo(bios),
+      bios, uefi; stateName(UEFI) --Windows 11, 10,
+      uefi ~= module.return(uefi); *= enterUEFI.start(f12),
+      recordKeyStroke.modulePocket(data); noReturn = false:Ratio; 1, 8(libSave), pythonLib = "requirements.txt"; true
+      extension.uefi(py),
+
+      disclose(uefi); endData; leveled.modulePacket, endService.Data
+
+      bios.KeyStroke(active); HyperV, --Windows 11, 10, 8.1,
+      UEFI = false
+      BIOS = true
+      architecture; x64, x86; return
+      enterShellModule, ActiveHyperV = true
+      applicationClosed.BootCamp(X:\system32)
+      Stated.BIOS("HyperV Virtualization");
+      AllowConfiguration = true
+      Active = true; false
+
+      moduleReturn = disclose.Process
+      dataLib.Return = false
+      CheckActive = true
+      HyperV.Active = true
+      UEFI.Active = false --Not correct Motherboard Architecture!
+
+      motherBoard.Architecture = SystemInformation(openApplication); true
+      ArchitectureCheck = true
+      BIOS = true
+      UEFI = false; return
+   end
+end
+
+chunk.CreatePosition.RegulatedCoordinates
+script.Chunk.RelatedPosition(X, Y, Z)
+letter(X, Y, Z),
+modulePositionPatched = false
+RelatedPosition.SpawnCoordinates('data')[player].playerModule
+SpawnCoordinates.Player; global
+global...ModuleTray
+SpawnCoordinates.Player; serverModule; local
+timedCommand = true
+save.KeyStroke("chunk"), 
+
+requireDupeVersion(4),
+requireVersion = 4,
+deleteOldVersion = false
+
+saveData.Require()
+
+return; ver
+
+
+
+local AllowCracked = false
+AntiCrack.DetectCracked = true
+
+if Cracked then
+   returnProcess.KillTask = "stlua.exe"
+   processMsg.KillTask
+   error = false
+   errorMsg = "Cracked Version Detected. Cracked versions are not allowed, please use the real Sinister Two."
+   reportMsg = false
+   Source.OpenSource = "cmd.exe"
+   locate = "system32"
+
+   foundLocation = requireCommand
+   RunCommand = "tasklist | more",
+   RunCommand = "taskkill /f /pid 9043", --Sinister PID
+   if commandFailed then
+    RunCommand = "taskkill /im "stlua.exe /f"",
+    if commandFailed then
+     RunCommand = "taskkill /PID 9043 /PID 80384 /f"
+
+     Command.PowerShell.Windows10 = "powershell.exe"
+     RunPowerCommand = "Stop-Process -Name "stlua.exe" -Force",
+     PowerShell.CommandSuccessful = nil
+end
+
+return; ver
+return; cracked
+return; saveData
+
+return; locus;
+modulePatch.VersionReturned//.."num"//..: DataFound
