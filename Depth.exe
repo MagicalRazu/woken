@@ -1,28 +1,6 @@
---SINISTER TWO DUPE--
---Blaze Edition--
+--Deepwoken Exploit--
 
---Version: 4.2 (2023)
---Minecraft Version: 1.19.2 - 1.20.1
-
---[[
-Update Log (Version 4):
--Removed Version Generations (RX 10)
--Updated Sinister API
--Updated SinisterMC Menu
--Unpatched "IgnoreCommands", feature
--Updated prefix bugs
--Unpatched everything on PaperMC / Bukkit Servers
--Added feature to use previous versions of SinisterMC (In The Flags Section)
--Added Flags Section in SinisterMC Menu
--Remastered SinisterMC Menu Pin Option
--Updated SinisterMC to the latest minecraft version (including snapshot)
--Added Update Channels (Everyone is automatically set to MCLIVE and cannot change it without a custom UChannel Code)
--Added Update Build Strings
--Added Compatibility for 1.19.2 !!
-
-ENJOY THE NEW UPDATE !!
-
---]]
+--Version: 4.62 (2023)
 
 --Local Service--
 local endService
@@ -31,21 +9,10 @@ createNewService.Name = "ended..n/..started"
 
 --Commands--
 PlayerPrefix = "/" --Set to anything you want or keep defualt.
-PrefixConfigure = true
-PrefixDefault = true --If changed Prefix, set this to false.
 DataRestore.Console = DataLib.PosReset
-
-IgnoreCommands = ["/kick","/ban","/warn","/pban","/ipban","/clear","/cls"] --Unpatched
-continueIgnore["Paused..//..Unpaused//"] ={
-requireIgnoreCommand = true
-},
-IgnoreCommandsListed = true
+continueIgnore["Paused..//..Unpaused//"]
 
 ValidCommands = {
-"$d",
-"$disconnect",
-"$disconnect pos",
-"$disconnect packet"
 local PacketService.Disconnect = interval
 NewInstance.Interval = 1
 NewInstance.Interval = 2
@@ -57,29 +24,16 @@ insertLib("Pos") = {
 localNet.resetPos = true
 },
 
-DataLib.Pos = tableLib.ResetInterval()
-"$dupe"
-"$itemdupe"
-"$interval"
-"$serverip"
-"$tps"
---"$crashserver"
-},
+DataLib.Pos = tableLib.ResetInterval
 
 --CrashServer.Time ~= ""
 --NewInstance.CrashTime ~= SelectedNumber
 --SelectedNumber = Interval
 
 ServiceCrash = {
---CrashSelection *= Selected
---CrashTps *= Set.TicksPerSecond
---TicksPerSecond ~= 1
---pcall("TicksPerSecond")
---CrashTps = false
-
---CrashSelection *= Selected
---EntityCrash *= Set.EntityCount
---EntityCount ~= E/300 >true
+if ended then
+   return false
+end
 },
 
 --createNewCommand.Extras.FileLocation
